@@ -1,5 +1,5 @@
 # Espotifai
----
+
 Este es un proyecto creado con Angular y el API de Spotify.
 La misma requiere un Token que se debe renovar cada 60 minutos.
 Para generar un servicio que los genere automáticamente se puede visitar: https://github.com/Klerith/spotify-get-token
@@ -7,7 +7,8 @@ Para generar un servicio que los genere automáticamente se puede visitar: https
 Siéntete libre de descargarlo y seguir mejorándolo.
 
 
-Saludos. 
+Saludos.
+
 Nicolas.
 
 ---------
