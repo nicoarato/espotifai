@@ -12,6 +12,9 @@ export class HomeComponent {
   nuevasCanciones: any[] = [];
   loading: boolean;
 
+  error: boolean;
+  mensajeError: string;
+
   constructor(private spotify: SpotifyService) {
 
     this.loading = true;
@@ -19,6 +22,13 @@ export class HomeComponent {
       console.log(data);
       this.nuevasCanciones = data;
       this.loading = false;
+      this.error = false;
+    }, (errorServicio) => {
+      this.loading = false;
+      this.error = true;
+      console.log(errorServicio);
+      this.mensajeError = errorServicio.error.error.message;
+
     });
   }
 
