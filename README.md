@@ -1,27 +1,24 @@
 # Espotifai
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.2.
+Este es un proyecto creado con Angular y el API de Spotify.
+La misma requiere un Token que se debe renovar cada 60 minutos.
+Para generar un servicio que los genere automáticamente se puede visitar: https://github.com/Klerith/spotify-get-token
 
-## Development server
+Siéntete libre de descargarlo y seguir mejorándolo.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
+Saludos.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Nicolas.
 
-## Build
+---------
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+This is a project created with Angular and the Spotify API.
+It requires a Token that must be renewed every 60 minutes.
+To generate a service that generates them automatically you can visit: https://github.com/Klerith/spotify-get-token
 
-## Running unit tests
+Feel free to download it and keep improving it.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+Nicolas.
