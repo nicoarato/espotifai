@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
 import { SpotifyService } from '../../services/spotify.service';
-import { timingSafeEqual } from 'crypto';
 
 @Component({
   selector: 'app-search',
